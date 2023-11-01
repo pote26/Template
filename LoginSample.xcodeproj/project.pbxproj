@@ -10,18 +10,22 @@
 		775B9F162AEEB86800134252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B9F152AEEB86800134252 /* AppDelegate.swift */; };
 		775B9F182AEEB86800134252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B9F172AEEB86800134252 /* SceneDelegate.swift */; };
 		775B9F1F2AEEB86A00134252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775B9F1E2AEEB86A00134252 /* Assets.xcassets */; };
-		775B9F2B2AEEB8BC00134252 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B9F292AEEB8BC00134252 /* MainViewController.swift */; };
-		775B9F2C2AEEB8BC00134252 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775B9F2A2AEEB8BC00134252 /* MainViewController.xib */; };
+		77AF8B0F2D00DDFA00E85BCC /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 77AF8B0A2D00DDFA00E85BCC /* Config */; };
+		77AF8B112D00DDFA00E85BCC /* Domain in Resources */ = {isa = PBXBuildFile; fileRef = 77AF8B0C2D00DDFA00E85BCC /* Domain */; };
+		77AF8B122D00DDFA00E85BCC /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 77AF8B0D2D00DDFA00E85BCC /* Presentation */; };
+		77AF8B132D00DDFA00E85BCC /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 77AF8B0E2D00DDFA00E85BCC /* Utils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		775B9F122AEEB86800134252 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775B9F122AEEB86800134252 /* LoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775B9F152AEEB86800134252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775B9F172AEEB86800134252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		775B9F1E2AEEB86A00134252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775B9F232AEEB86A00134252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		775B9F292AEEB8BC00134252 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		775B9F2A2AEEB8BC00134252 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		77AF8B0A2D00DDFA00E85BCC /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
+		77AF8B0C2D00DDFA00E85BCC /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Domain; sourceTree = "<group>"; };
+		77AF8B0D2D00DDFA00E85BCC /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
+		77AF8B0E2D00DDFA00E85BCC /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		775B9F092AEEB86800134252 = {
 			isa = PBXGroup;
 			children = (
-				775B9F142AEEB86800134252 /* SampleProject */,
+				775B9F142AEEB86800134252 /* LoginSample */,
 				775B9F132AEEB86800134252 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,64 @@
 		775B9F132AEEB86800134252 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				775B9F122AEEB86800134252 /* SampleProject.app */,
+				775B9F122AEEB86800134252 /* LoginSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		775B9F142AEEB86800134252 /* SampleProject */ = {
+		775B9F142AEEB86800134252 /* LoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				77AF8B0D2D00DDFA00E85BCC /* Presentation */,
+				77AF8B152D00DEB000E85BCC /* Copmonent */,
+				77AF8B142D00DE2A00E85BCC /* UseCases */,
+				77AF8B0C2D00DDFA00E85BCC /* Domain */,
+				77AF8B0A2D00DDFA00E85BCC /* Config */,
+				77AF8B0E2D00DDFA00E85BCC /* Utils */,
 				775B9F152AEEB86800134252 /* AppDelegate.swift */,
 				775B9F172AEEB86800134252 /* SceneDelegate.swift */,
 				775B9F1E2AEEB86A00134252 /* Assets.xcassets */,
 				775B9F232AEEB86A00134252 /* Info.plist */,
-				775B9F292AEEB8BC00134252 /* MainViewController.swift */,
-				775B9F2A2AEEB8BC00134252 /* MainViewController.xib */,
 			);
-			path = SampleProject;
+			path = LoginSample;
+			sourceTree = "<group>";
+		};
+		77AF8B142D00DE2A00E85BCC /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		77AF8B152D00DEB000E85BCC /* Copmonent */ = {
+			isa = PBXGroup;
+			children = (
+				77AF8B162D00DEB000E85BCC /* xibs */,
+				77AF8B172D00DEB000E85BCC /* vc */,
+			);
+			path = Copmonent;
+			sourceTree = "<group>";
+		};
+		77AF8B162D00DEB000E85BCC /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		77AF8B172D00DEB000E85BCC /* vc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		775B9F112AEEB86800134252 /* SampleProject */ = {
+		775B9F112AEEB86800134252 /* LoginSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 775B9F262AEEB86A00134252 /* Build configuration list for PBXNativeTarget "SampleProject" */;
+			buildConfigurationList = 775B9F262AEEB86A00134252 /* Build configuration list for PBXNativeTarget "LoginSample" */;
 			buildPhases = (
 				775B9F0E2AEEB86800134252 /* Sources */,
 				775B9F0F2AEEB86800134252 /* Frameworks */,
@@ -79,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = SampleProject;
+			name = LoginSample;
 			productName = SampleProject;
-			productReference = 775B9F122AEEB86800134252 /* SampleProject.app */;
+			productReference = 775B9F122AEEB86800134252 /* LoginSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 775B9F0D2AEEB86800134252 /* Build configuration list for PBXProject "SampleProject" */;
+			buildConfigurationList = 775B9F0D2AEEB86800134252 /* Build configuration list for PBXProject "LoginSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				775B9F112AEEB86800134252 /* SampleProject */,
+				775B9F112AEEB86800134252 /* LoginSample */,
 			);
 		};
 /* End PBXProject section */
@@ -122,8 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AF8B112D00DDFA00E85BCC /* Domain in Resources */,
 				775B9F1F2AEEB86A00134252 /* Assets.xcassets in Resources */,
-				775B9F2C2AEEB8BC00134252 /* MainViewController.xib in Resources */,
+				77AF8B122D00DDFA00E85BCC /* Presentation in Resources */,
+				77AF8B132D00DDFA00E85BCC /* Utils in Resources */,
+				77AF8B0F2D00DDFA00E85BCC /* Config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +177,6 @@
 			files = (
 				775B9F162AEEB86800134252 /* AppDelegate.swift in Sources */,
 				775B9F182AEEB86800134252 /* SceneDelegate.swift in Sources */,
-				775B9F2B2AEEB8BC00134252 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +309,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R692T5BN2A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = LoginSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -281,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SampleProject.SampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = LoginSample.LoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,8 +337,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R692T5BN2A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = LoginSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -308,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SampleProject.SampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = LoginSample.LoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		775B9F0D2AEEB86800134252 /* Build configuration list for PBXProject "SampleProject" */ = {
+		775B9F0D2AEEB86800134252 /* Build configuration list for PBXProject "LoginSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775B9F242AEEB86A00134252 /* Debug */,
@@ -328,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		775B9F262AEEB86A00134252 /* Build configuration list for PBXNativeTarget "SampleProject" */ = {
+		775B9F262AEEB86A00134252 /* Build configuration list for PBXNativeTarget "LoginSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775B9F272AEEB86A00134252 /* Debug */,
