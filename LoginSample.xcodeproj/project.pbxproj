@@ -59,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				77AF8B0D2D00DDFA00E85BCC /* Presentation */,
-				77AF8B152D00DEB000E85BCC /* Copmonent */,
 				77AF8B142D00DE2A00E85BCC /* UseCases */,
 				77AF8B0C2D00DDFA00E85BCC /* Domain */,
 				77AF8B0A2D00DDFA00E85BCC /* Config */,
@@ -77,29 +76,6 @@
 			children = (
 			);
 			path = UseCases;
-			sourceTree = "<group>";
-		};
-		77AF8B152D00DEB000E85BCC /* Copmonent */ = {
-			isa = PBXGroup;
-			children = (
-				77AF8B162D00DEB000E85BCC /* xibs */,
-				77AF8B172D00DEB000E85BCC /* vc */,
-			);
-			path = Copmonent;
-			sourceTree = "<group>";
-		};
-		77AF8B162D00DEB000E85BCC /* xibs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = xibs;
-			sourceTree = "<group>";
-		};
-		77AF8B172D00DEB000E85BCC /* vc */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
