@@ -2,8 +2,8 @@
 //  SamplePresenter.swift
 //  Template
 //  
-//  Created by pote 26 
-//  Copyright © 2024 Divergence. All rights reserved.
+//  Created by pote 26
+
     
 
 import Foundation
