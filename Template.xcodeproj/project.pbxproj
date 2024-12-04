@@ -10,12 +10,12 @@
 		775B9F162AEEB86800134252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B9F152AEEB86800134252 /* AppDelegate.swift */; };
 		775B9F182AEEB86800134252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B9F172AEEB86800134252 /* SceneDelegate.swift */; };
 		775B9F1F2AEEB86A00134252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775B9F1E2AEEB86A00134252 /* Assets.xcassets */; };
+		776D057D2D00F6650084861B /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D057C2D00F6650084861B /* SamplePresenter.swift */; };
 		777E73DC2D00F49A0011C386 /* SampleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73DB2D00F49A0011C386 /* SampleUseCase.swift */; };
 		777E73E02D00F4BF0011C386 /* SampleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73DF2D00F4BF0011C386 /* SampleType.swift */; };
 		777E73E22D00F4D90011C386 /* SampleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73E12D00F4D90011C386 /* SampleService.swift */; };
 		777E73E52D00F4E90011C386 /* SampleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73E42D00F4E90011C386 /* SampleRepository.swift */; };
 		777E73E72D00F4FE0011C386 /* SampleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73E62D00F4FE0011C386 /* SampleConfig.swift */; };
-		777E73E92D00F5170011C386 /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73E82D00F5170011C386 /* SamplePresenter.swift */; };
 		777E73ED2D00F54A0011C386 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E73EB2D00F54A0011C386 /* SampleTableViewCell.swift */; };
 		777E73EE2D00F54A0011C386 /* SampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777E73EC2D00F54A0011C386 /* SampleTableViewCell.xib */; };
 		77AF8B252D00E91100E85BCC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AF8B1E2D00E91100E85BCC /* MainViewController.xib */; };
@@ -32,12 +32,12 @@
 		775B9F172AEEB86800134252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		775B9F1E2AEEB86A00134252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775B9F232AEEB86A00134252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776D057C2D00F6650084861B /* SamplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplePresenter.swift; sourceTree = "<group>"; };
 		777E73DB2D00F49A0011C386 /* SampleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUseCase.swift; sourceTree = "<group>"; };
 		777E73DF2D00F4BF0011C386 /* SampleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleType.swift; sourceTree = "<group>"; };
 		777E73E12D00F4D90011C386 /* SampleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleService.swift; sourceTree = "<group>"; };
 		777E73E42D00F4E90011C386 /* SampleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRepository.swift; sourceTree = "<group>"; };
 		777E73E62D00F4FE0011C386 /* SampleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConfig.swift; sourceTree = "<group>"; };
-		777E73E82D00F5170011C386 /* SamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SamplePresenter.swift; path = Template/Config/SamplePresenter.swift; sourceTree = SOURCE_ROOT; };
 		777E73EB2D00F54A0011C386 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 		777E73EC2D00F54A0011C386 /* SampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleTableViewCell.xib; sourceTree = "<group>"; };
 		77AF8B1E2D00E91100E85BCC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		777E73D32D00F3120011C386 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				777E73E82D00F5170011C386 /* SamplePresenter.swift */,
+				776D057C2D00F6650084861B /* SamplePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -286,13 +286,13 @@
 			files = (
 				77AF8B332D00E95100E85BCC /* UITextField+isEmailAddress.swift in Sources */,
 				777E73DC2D00F49A0011C386 /* SampleUseCase.swift in Sources */,
-				777E73E92D00F5170011C386 /* SamplePresenter.swift in Sources */,
 				77AF8B262D00E91100E85BCC /* MainViewController.swift in Sources */,
 				777E73E02D00F4BF0011C386 /* SampleType.swift in Sources */,
 				777E73ED2D00F54A0011C386 /* SampleTableViewCell.swift in Sources */,
 				777E73E52D00F4E90011C386 /* SampleRepository.swift in Sources */,
 				777E73E72D00F4FE0011C386 /* SampleConfig.swift in Sources */,
 				77AF8B322D00E95100E85BCC /* UIViewController+LikeJS.swift in Sources */,
+				776D057D2D00F6650084861B /* SamplePresenter.swift in Sources */,
 				77AF8B312D00E95100E85BCC /* DateUtil.swift in Sources */,
 				77AF8B342D00E95100E85BCC /* UIViewController+KeyboardExtension.swift in Sources */,
 				775B9F162AEEB86800134252 /* AppDelegate.swift in Sources */,

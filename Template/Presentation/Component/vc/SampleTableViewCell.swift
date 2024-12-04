@@ -2,7 +2,7 @@
 //  SampleTableViewCell.swift
 //  Template
 //  
-//  Created by pote 26 
+//  Created by pote 26
     
 
 import UIKit
